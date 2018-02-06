@@ -1,0 +1,30 @@
+{
+  "name": "netent-code-assigement",
+  "version": "1.0.0",
+  "description": "NETENT code assigment",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --presets es2015 server -d lib",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "npm run build && node lib/index.js",
+    "client": "node start-client.js",
+    "dev": "echo \"This command has been deprecated. Use 'npm start'\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "mahendra hirapra (hir.mahendra@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "concurrently": "^3.5.1",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

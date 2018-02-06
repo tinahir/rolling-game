@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  cursor: pointer;
+  animation: App-logo-spin infinite 5s linear;
+}
+
+.App-logo:hover {
+  animation: none;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.symbol-Button {
+  width: 235px;
+  height: 155px;
+  padding: 20px;
+  background: none;
+  border: 10px;
+  margin: 5px;
+}
+
+.symbol-Button.symbol--1 {
+  background-color: gray;
+  margin: 5px;
+  color: white;
+}
+
+.symbol-Button.symbol-0 {
+  background-image: url('images/Symbol_0.png');
+}
+
+.symbol-Button.symbol-1 {
+  background-image: url('images/Symbol_1.png');
+}
+
+.symbol-Button.symbol-2 {
+  background-image: url('images/Symbol_2.png');
+}
+
+.symbol-Button.symbol-3 {
+  background-image: url('images/Symbol_3.png');
+}
+
+.symbol-Button.symbol-4 {
+  background-image: url('images/Symbol_4.png');
+}
+.symbol-Button.symbol-5 {
+  background-image: url('images/Symbol_5.png');
+}
+.App-button {
+  padding: 20px;
+  background: none;
+  border: 10px;
+}
+
+.App-title {
+  font-size: 3.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
