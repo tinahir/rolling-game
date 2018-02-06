@@ -1,7 +1,7 @@
 {
-  "name": "netent-code-assigement",
+  "name": "rolling-game",
   "version": "1.0.0",
-  "description": "NETENT code assigment",
+  "description": "rolling-game",
   "main": "index.js",
   "scripts": {
     "build": "babel --presets es2015 server -d lib",
